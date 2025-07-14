@@ -1,0 +1,15 @@
+#btncurrent:hover {
+    background-color: #D9B075 !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#btnprevious:hover {
+    background-color: #D9B075 !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#btncurrent:active {
+    background-color: red !important;
+}

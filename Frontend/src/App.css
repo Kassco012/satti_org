@@ -1,0 +1,120 @@
+/* @import url(https://fonts.googleapis.com/css?family=Gabarito:regular,500,600,700,800,900); */
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+    font-family: "Poppins";
+}
+
+.primaryBG {
+    background: #F3f1ed;
+}
+
+.dark {
+    background: black;
+    color: #ffff;
+}
+
+.themediv {
+    z-index: 20001;
+}
+
+header, nav {
+    z-index: 10001 !important;
+}
+
+.subtitle {
+    color: #0099B1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 3rem;
+        line-height: 1.25;
+    }
+}
+
+/* Если нужны эти стили, раскомментируйте: */
+.slick-slider {
+    background-color: aquamarine;
+    padding-left: 30px;
+    height: 480px !important;
+}
+
+.slick-prev {
+    z-index: 1;
+    /* background-color: red !important; */
+}
+
+.slick-next {
+    z-index: 1;
+    /* background-color: red !important; */
+}
+
+.slick-dots li button:before {
+    color: rgb(179, 178, 178) !important;
+    font-size: 10px !important;
+    margin-top: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white !important;
+    /* font-size: 12px !important; */
+}
+
+.heartStar {
+    border-radius: 0px 28px 0px 28px;
+}
+
+
+.section-container {
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (min-width: 1280px) {
+    .section-container {
+        padding: 0 6rem;
+    }
+}
+
+.footer-title {
+    color: black !important;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #0099B1;
+}
+
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}

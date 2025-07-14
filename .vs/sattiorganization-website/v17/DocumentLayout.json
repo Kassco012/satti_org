@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\components\\AboutUsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\src\\components\\AboutUsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\pages\\Contact\\Contact.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\src\\pages\\Contact\\Contact.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\components\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\src\\components\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AboutUsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\components\\AboutUsPage.jsx",
+              "RelativeDocumentMoniker": "Frontend\\src\\components\\AboutUsPage.jsx",
+              "ToolTip": "C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\components\\AboutUsPage.jsx",
+              "RelativeToolTip": "Frontend\\src\\components\\AboutUsPage.jsx",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-14T05:58:22.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.jsx",
+              "DocumentMoniker": "C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\pages\\Contact\\Contact.jsx",
+              "RelativeDocumentMoniker": "Frontend\\src\\pages\\Contact\\Contact.jsx",
+              "ToolTip": "C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\pages\\Contact\\Contact.jsx",
+              "RelativeToolTip": "Frontend\\src\\pages\\Contact\\Contact.jsx",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAAwDgAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-14T05:56:41.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Footer.jsx",
+              "DocumentMoniker": "C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\components\\Footer.jsx",
+              "RelativeDocumentMoniker": "Frontend\\src\\components\\Footer.jsx",
+              "ToolTip": "C:\\Users\\kassymzhan.nuraliyev\\OneDrive - KAZ Minerals Management LLP\\Desktop\\sattiorganization-website\\Frontend\\src\\components\\Footer.jsx",
+              "RelativeToolTip": "Frontend\\src\\components\\Footer.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-14T05:55:08.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
