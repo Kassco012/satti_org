@@ -14,5 +14,5 @@
       "dest": "Frontend/$1"
     }
   ],
-  "installCommand": "cd Frontend && npm install --legacy-peer-deps"
+  "installCommand": "npm install --legacy-peer-deps"
 }
