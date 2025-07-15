@@ -1,0 +1,14 @@
+{
+  "name": "satiorganization-website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix Frontend",
+    "build": "npm run build --prefix Frontend",
+    "start": "npm start --prefix Frontend",
+    "install-all": "npm install --prefix Frontend && npm install --prefix Backend"
+  },
+  "workspaces": [
+    "Frontend",
+    "Backend"
+  ]
+}
