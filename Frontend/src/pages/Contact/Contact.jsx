@@ -135,7 +135,7 @@ Email: ${userEmail}
                                 </div>
                                 <div className="contact-text">
                                     <h3 className="font-bold text-lg mb-2">{t('email')}</h3>
-                                    <p className="text-gray-600">info@sattyorganization.com</p>
+                                    <p className="text-gray-600">info@sattiorganization.com</p>
                                 </div>
                             </div>
                         </div>
