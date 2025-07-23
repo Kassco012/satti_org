@@ -49,11 +49,11 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vite": "^5.4.19"
+  },
+  "overrides": {
+    "react-typist": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
   }
-{
-  "scripts": {
-    "build": "vite build",
-    "preview": "vite preview"
-  }
-}
 }
