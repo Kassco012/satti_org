@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import { Link } from 'react-router-dom'; // Добавляем импорт
 import { useLanguage } from '../../components/LanguageContext';
 import homebg from '../../assets/фон.png';
 
@@ -25,7 +26,7 @@ const Homebg = () => {
                             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 drop-shadow-lg"
                             style={{
                                 fontFamily: 'KZ Gropled'
-                                
+
                             }}
                         >
                             {t('sattiOrganization')}
@@ -34,18 +35,19 @@ const Homebg = () => {
                             {t('culinaryArtKazakh')}
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a
-                                href="/menu"
+                            {/* Заменяем <a> на <Link> */}
+                            <Link
+                                to="/menu"
                                 className="bg-[#0099B1] hover:bg-[#007B94] text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105"
                             >
                                 {t('viewMenu')}
-                            </a>
-                            <a
-                                href="/calculator"
+                            </Link>
+                            <Link
+                                to="/calculator"
                                 className="bg-[#D9B075] hover:bg-[#C09856] text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105"
                             >
                                 {t('calculateCostHome')}
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
