@@ -1,8 +1,14 @@
-
 {
+  "name": "satti-organization",
+  "homepage": "https://Kassco012.github.io/satti_org",
   "scripts": {
     "build": "react-scripts build",
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   },
   "overrides": {
     "react-typist": {
