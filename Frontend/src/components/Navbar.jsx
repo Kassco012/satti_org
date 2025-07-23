@@ -6,6 +6,7 @@ import "../index.css";
 import { FaTelegram } from "react-icons/fa6";
 import { useLanguage } from "../components/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import logo from "../logo.png";
 
 const Navbar = () => {
     const location = useLocation();
@@ -136,19 +137,16 @@ const Navbar = () => {
                     </div>
                     <Link to="/">
                         <img
-                            src="/logo.png"
+                            src={logo}
                             alt="Sátti Organization"
                             className="my-2 h-16 md:h-20 lg:h-24 w-auto object-contain"
                             id="logoms"
-                            onLoad={() => console.log('Logo loaded successfully from /logo.png')}
+                            onLoad={() => console.log('Logo loaded successfully')}
                             onError={(e) => {
-                                console.log('Logo failed to load from /logo.png');
-                                console.log('Trying fallback to /logo.jpg');
-                                e.target.src = '/logo.jpg';
-                                e.target.onError = () => {
-                                    console.log('Logo.jpg also failed, trying vite.svg');
-                                    e.target.src = '/vite.svg';
-                                };
+                                console.log('Logo failed to load');
+                                // Fallback к тексту если изображение не загружается
+                                e.target.style.display = 'none';
+                                e.target.parentNode.innerHTML = '<span style="font-size: 1.5rem; font-weight: bold; color: #0099B1;">Sátti Organization</span>';
                             }}
                         />
                     </Link>
