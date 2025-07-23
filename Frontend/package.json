@@ -50,4 +50,10 @@
     "tailwindcss": "^3.3.5",
     "vite": "^5.4.19"
   }
+{
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
 }
