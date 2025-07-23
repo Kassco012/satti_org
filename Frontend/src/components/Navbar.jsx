@@ -140,6 +140,16 @@ const Navbar = () => {
                             alt="Sátti Organization"
                             className="my-2 h-16 md:h-20 lg:h-24 w-auto object-contain"
                             id="logoms"
+                            onLoad={() => console.log('Logo loaded successfully from /logo.png')}
+                            onError={(e) => {
+                                console.log('Logo failed to load from /logo.png');
+                                console.log('Trying fallback to /logo.jpg');
+                                e.target.src = '/logo.jpg';
+                                e.target.onError = () => {
+                                    console.log('Logo.jpg also failed, trying vite.svg');
+                                    e.target.src = '/vite.svg';
+                                };
+                            }}
                         />
                     </Link>
                 </div>
